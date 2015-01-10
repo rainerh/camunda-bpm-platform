@@ -12,7 +12,7 @@
 
   <groupId>org.camunda.bpm</groupId>
   <artifactId>camunda-bom</artifactId>
-  <version>7.2.0</version>
+  <version>7.2.1-patched</version>
   <packaging>pom</packaging>
   <name>camunda BPM - Bom</name>
   <url>http://camunda.org</url>
@@ -38,6 +38,7 @@
     <version.camunda.commons>1.0.6</version.camunda.commons>
     <version.camunda.connect>1.0.0</version.camunda.connect>
     <version.camunda.spin>1.0.1</version.camunda.spin>
+    <version.camunda.model>7.2.0</version.camunda.model>
     <version.camunda.template-engines>1.0.1</version.camunda.template-engines>
   </properties>
 
@@ -105,17 +106,17 @@
       <dependency>
         <groupId>org.camunda.bpm.model</groupId>
         <artifactId>camunda-xml-model</artifactId>
-        <version>${project.version}</version>
+        <version>${version.camunda.model}</version>
       </dependency>
       <dependency>
         <groupId>org.camunda.bpm.model</groupId>
         <artifactId>camunda-bpmn-model</artifactId>
-        <version>${project.version}</version>
+        <version>${version.camunda.model}</version>
       </dependency>
       <dependency>
         <groupId>org.camunda.bpm.model</groupId>
         <artifactId>camunda-cmmn-model</artifactId>
-        <version>${project.version}</version>
+        <version>${version.camunda.model}</version>
       </dependency>
 
       <dependency>
